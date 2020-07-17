@@ -3,6 +3,8 @@ intents:
   - thank
   - bye
   - faq
+  - contact_sales
+  - inform
 
 responses:
   utter_greet:
