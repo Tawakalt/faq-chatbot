@@ -34,4 +34,4 @@ class SalesForm(FormAction):
         domain: Dict[Text, Any],
     ) -> List[Dict]:
         dispatcher.utter_message("Thanks for getting in touch, we'll contact you soon")
-            return []
+        return []
