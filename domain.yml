@@ -45,3 +45,11 @@ actions:
 
 forms:
   - sales_form
+
+entities:
+  - company
+  - job_function
+  - person_name
+  - budget
+  - business_email
+  - use_case
