@@ -25,3 +25,22 @@
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
+from rasa_sdk.forms import FormAction
+
+
+class SalesForm(FormAction):
+    """Collects sales info and adds it to the spreadsheet"""
+
+    def name(self):
+        return "sales_form"
+
+    @staticmethod
+    def required_slots(tracker):
+        return [
+            "job_function",
+            "use_case",
+            "budget",
+            "person_name",
+            "company",
+            "business_email",
+        ]
