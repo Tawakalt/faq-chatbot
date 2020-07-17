@@ -35,3 +35,13 @@ class SalesForm(FormAction):
     ) -> List[Dict]:
         dispatcher.utter_message("Thanks for getting in touch, we'll contact you soon")
         return []
+
+    def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict[Text, Any]]]]:
+    """
+    A dictionary to map required slots to
+    - an extracted entity
+    - intent: value pairs
+    - a whole message
+    or a list of them, where a first match will be picked
+    """
+    return {"use_case": self.from_text(intent="inform")}
