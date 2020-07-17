@@ -37,7 +37,9 @@ slots:
     type: unfeaturized
   business_email:
     type: unfeaturized
-  
 
 actions:
   - respond_faq
+
+forms:
+  - sales_form
