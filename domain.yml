@@ -1,5 +1,5 @@
 intents:
-  - greet
+  - greet: {triggers: action_greet}
   - thank
   - bye
   - faq
@@ -42,6 +42,7 @@ slots:
 
 actions:
   - respond_faq
+  - action_greet
 
 forms:
   - sales_form
