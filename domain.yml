@@ -24,7 +24,20 @@ responses:
   utter_ask_business_email:
     - text: What's your business email?  
   
-
+slots:
+  job_function:
+    type: unfeaturized
+  use_case:
+    type: unfeaturized
+  budget:
+    type: unfeaturized
+  person_name:
+    type: unfeaturized
+  company:
+    type: unfeaturized
+  business_email:
+    type: unfeaturized
+  
 
 actions:
   - respond_faq
