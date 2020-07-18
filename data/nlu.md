@@ -100,3 +100,11 @@
 - we plan to build a [sales bot](use_case) to increase our revenue by 100%.
 - a [insurance tool](use_case) that consults potential customers on the best life insurance to choose.
 - we're building a [conversational assistant](use_case) for our employees to book meeting rooms.
+
+## intent:explain
+- why?
+- why is that?
+- why do you need it?
+- why do you need to know that?
+- could you explain why you need it?
+- what for?

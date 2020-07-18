@@ -5,6 +5,7 @@ intents:
   - faq
   - contact_sales
   - inform
+  - explain
 
 responses:
   utter_greet:
@@ -24,7 +25,11 @@ responses:
   utter_ask_company:
     - text: What company do you work for?
   utter_ask_business_email:
-    - text: What's your business email?  
+    - text: What's your business email? 
+  utter_explain_why_budget:
+    - text: We need to know your budget to recommend a subscription
+  utter_explain_why_email:
+    - text: We need your email so we can contact you
   
 slots:
   job_function:
@@ -39,6 +44,16 @@ slots:
     type: unfeaturized
   business_email:
     type: unfeaturized
+
+  requested_slot:
+    type: categorical
+    values:
+      - job_function
+      - use_case
+      - budget
+      - person_name
+      - company
+      - business_email
 
 actions:
   - respond_faq
