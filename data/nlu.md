@@ -46,6 +46,7 @@
 - which languages supports rasa
 - can I use rasa also for another laguage?
 - languages supported
+- Which languages can I build assistants in? 
 
 ## intent: faq/ask_rasax
 - I want information about rasa x
