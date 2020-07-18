@@ -35,3 +35,23 @@
 ## ask rasa x
 * faq: What’s Rasa X?
   - respond_faq
+
+## sales form
+* contact_sales: Please connect me to someone from sales
+  - sales_form
+
+## greet + ask rasa x + ask channels + ask languages + sales form + thank + goodbye
+* greet: Hello
+    - utter_greet
+* faq: I want information about rasa x
+  - respond_faq
+* faq: What channels of communication does rasa support?
+  - respond_faq
+* faq: what language does rasa support?
+  - respond_faq
+* contact_sales: I want to get in touch with your sales guys
+  - sales_form
+* thank: Thanks for that
+    - utter_noworries
+* bye: Goodbye
+    - utter_bye
