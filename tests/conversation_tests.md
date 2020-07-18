@@ -55,3 +55,51 @@
     - utter_noworries
 * bye: Goodbye
     - utter_bye
+
+## sales form + explain job function
+* contact_sales: I would like to talk to someone from your sales team
+  - sales_form
+  - slot{"requested_slot": "job_function"}
+* explain: could you explain why you need it?
+  - utter_explain_why_job_function
+  - sales_form
+
+## sales form + explain use case
+* contact_sales: sales please
+  - sales_form
+  - slot{"requested_slot": "use_case"}
+* explain: why do you need it?
+  - utter_explain_why_use_case
+  - sales_form
+
+## sales form + explain budget
+* contact_sales: I want to speak with sales
+  - sales_form
+  - slot{"requested_slot": "budget"}
+* explain: why do you need to know that?
+  - utter_explain_why_budget
+  - sales_form
+
+## sales form + explain name
+* contact_sales: I wanna talk to your sales people.
+  - sales_form
+  - slot{"requested_slot": "person_name"}
+* explain: why is that?
+  - utter_explain_why_name
+  - sales_form
+
+## sales form + explain company
+* contact_sales: Sales
+  - sales_form
+  - slot{"requested_slot": "company"}
+* explain: why?
+  - utter_explain_why_company
+  - sales_form
+
+## sales form + explain email
+* contact_sales: I want to get in touch with your sales guys
+  - sales_form
+  - slot{"requested_slot": "business_email"}
+* explain: what for?
+  - utter_explain_why_email
+  - sales_form

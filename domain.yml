@@ -25,9 +25,17 @@ responses:
   utter_ask_company:
     - text: What company do you work for?
   utter_ask_business_email:
-    - text: What's your business email? 
+    - text: What's your business email?
+  utter_explain_why_job_function:
+    - text: We need to know your job function to recommend a subscription
+  utter_explain_why_use_case:
+    - text: We need to know your use case to recommend a subscription 
   utter_explain_why_budget:
     - text: We need to know your budget to recommend a subscription
+  utter_explain_why_name:
+    - text: We need your name so we can address you properly
+  utter_explain_why_company:
+    - text: We need your company for proper documentation
   utter_explain_why_email:
     - text: We need your email so we can contact you
   
@@ -63,9 +71,11 @@ forms:
   - sales_form
 
 entities:
-  - company
+  
   - job_function
-  - person_name
-  - budget
-  - business_email
   - use_case
+  - budget
+  - person_name
+  - company
+  - business_email
+  
