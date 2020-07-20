@@ -25,3 +25,5 @@ policies:
     epochs: 100
   - name: MappingPolicy
   - name: FormPolicy
+  - name: TwoStageFallbackPolicy
+    nlu_threshold: 0.8

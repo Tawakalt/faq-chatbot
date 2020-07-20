@@ -108,3 +108,10 @@
 - why do you need to know that?
 - could you explain why you need it?
 - what for?
+
+## intent:out_of_scope
+- I want to order food
+- What is 2 + 2?
+- Who’s the US President?
+- I need a job
+- How do I make money

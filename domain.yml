@@ -6,6 +6,7 @@ intents:
   - contact_sales
   - inform
   - explain
+  - out_of_scope
 
 responses:
   utter_greet:
@@ -38,7 +39,9 @@ responses:
     - text: We need your company for proper documentation
   utter_explain_why_email:
     - text: We need your email so we can contact you
-  
+  utter_out_of_scope:
+    - text: Sorry, I can’t handle that request.
+
 slots:
   job_function:
     type: unfeaturized
